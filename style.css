@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display:flex;
+    justify-content:space-evenly;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+.menu-bar{
+    display: flex;
+}
+.menu-bar li{
+    list-style: none;
+     display: flex;
+     font-size: 18px;
+     margin: 5px;
+     padding: 10px;
+}
