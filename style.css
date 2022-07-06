@@ -44,7 +44,7 @@ button{
 .second{
     width:100%;
     height:50vh ;
-    margin-top: 60px;
+    margin-top: 80px;
     text-align: center;
     top: 20%;
 }
@@ -54,11 +54,11 @@ button{
 }
 .second p{
     font-size:12px;
-    color: grey;
+    color: rgb(82, 79, 79);
 }
 .btn {
     background-color: #ddd;
-    border: 2px solid rgba(163, 23, 46, 0.788) ;
+    border: none ;
     color: grey;
     padding: 16px 32px;
     text-align: center;
@@ -71,3 +71,32 @@ button{
     background-color: rgba(163, 23, 46, 0.788);
     color: white;
   }
+.column-1{
+    width: 220px;
+    height:160px;
+    border: 1px solid rgb(226, 158, 158) ;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: left;
+    background-color: white;
+}
+.icon{
+    width: 40px;
+}
+.third{
+    display: flex;
+    margin-top: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+#aqua{
+    background-color: rgb(162, 230, 207);
+}
+#babypink{
+    background-color: rgb(204, 151, 134);
+}
+#purple{
+    background-color: rgb(156, 138, 189);
+}
+
